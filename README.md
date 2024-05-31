@@ -1,6 +1,6 @@
 # Xcode for Rails apps
 
-This is setup code to allow you to run your Rails app's test suite when you
+This is glue code to allow you to run your Rails app's test suite when you
 build in Xcode.
 
 1. Create an Xcode project and move your Rails app code into that project.
@@ -46,8 +46,8 @@ _Does it work with rspec, or other BDD frameworks?_
 >
 >  1. Write a formatter to spit out warnings in the same format as this one.
 >  2. Modify the Run Script build phase to call the test command.
-
-PRs welcome.
+>
+> PRs welcome.
 
 _Why did you use the build command instead of the test command?_
 

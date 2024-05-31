@@ -47,6 +47,8 @@ _Does it work with rspec, or other BDD frameworks?_
 >  1. Write a formatter to spit out warnings in the same format as this one.
 >  2. Modify the Run Script build phase to call the test command.
 
+PRs welcome.
+
 _Why did you use the build command instead of the test command?_
 
 > Xcode's and Rails' models running and testing during development are not
